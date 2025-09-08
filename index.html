@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Portfolio</title>
+  <link href="styleD.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>venmathi</h1>
+    <p>Web Developer | Designer | Creator</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm a passionate web developer skilled in HTML, CSS, and JavaScript. 
+      I love creating beautiful and functional websites and applications.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>To-Do App</h3>
+        <p>A task management app using JavaScript for interactive features.</p>
+      </div>
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>A weather application fetching live API data with JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 venmathi | All Rights Reserved</p>
+  </footer>
+
+  <script src="styleD.js"></script>
+</body>
+</html>
